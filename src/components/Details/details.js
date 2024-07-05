@@ -67,10 +67,10 @@ const Details = () => {
                     
                 </Flex> 
                 <DialogTrigger   >
-                    <ActionButton UNSAFE_className='actionbutoon' marginStart={'30px'} alignSelf={'center'} variant="primary" >
-                                        <FontAwesomeIcon icon={faArrowUpFromBracket} />
-                                        <Text marginStart={'10px'}>Add Terminal</Text>
-                                   </ActionButton>
+                    <Button marginStart={'20px'} alignSelf={'center'}  variant="primary">
+                        <FontAwesomeIcon icon={faArrowUpFromBracket} />
+                        <Text marginStart={'10px'}>Add Terminal</Text>
+                    </Button>
                     {(close) => (
                         <Dialog width={'400px'}>
                             
