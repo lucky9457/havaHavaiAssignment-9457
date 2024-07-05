@@ -167,7 +167,7 @@ const Details = () => {
                     'sidebar content',
                     'sidebar  content'
                 ]}
-                columns={['size-2400', 'auto']}
+                columns={['size-3000', 'auto']}
                 rows={['auto']}
 
                 height="100vh"
@@ -176,7 +176,7 @@ const Details = () => {
                     <Headbar/>
                     
                 </View>
-                <View gridArea="sidebar"  padding="size-200" UNSAFE_className="sidebarcont sidebar">
+                <View width={'900px'} gridArea="sidebar" backgroundColor="gray-200" padding="size-200" UNSAFE_className="sidebar">
                     <Sidebar/>
                 </View>
               <View   height='95vh' gridArea="content" padding="size-200" UNSAFE_className="content contentcontainer">

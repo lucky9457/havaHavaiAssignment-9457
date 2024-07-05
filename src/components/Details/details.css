@@ -17,7 +17,7 @@
 }
 .contentcontainer{
     overflow: scroll;
-    padding: 200px;
+    
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
@@ -27,7 +27,8 @@
 }
 .sidebarcont{
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-    background-color: #faf7f7;
+    animation: ease 2s;
+    transition: ease-in 2s;
 }
 
 /* Hide scrollbar for Chrome, Safari, and Opera */
